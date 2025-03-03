@@ -9,7 +9,7 @@ from variables import (W,H, Ingles,Español,fuente)
 
 pantalla = pygame.display.set_mode((W, H))
 pygame.display.set_caption('Monkey Guard')
-icon = pygame.image.load('data/imagenes/icono.PNG').convert_alpha()
+icon = pygame.image.load('data/imagenes/icono.png').convert_alpha()
 pygame.display.set_icon (icon)
 
 # load button images

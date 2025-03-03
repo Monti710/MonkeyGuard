@@ -5,8 +5,8 @@ from variables import (pantalla,fuente,Español, Ingles)
 from variables import musica
 import variables
 pygame.init()
-pygame.display.set_caption('data/imagenes/icono.PNG')
-icon = pygame.image.load('data/imagenes/icono.PNG').convert_alpha()
+pygame.display.set_caption('data/imagenes/icono.png')
+icon = pygame.image.load('data/imagenes/icono.png').convert_alpha()
 pygame.display.set_icon (icon)
 pygame.display.set_caption('Monkey Guard')
 

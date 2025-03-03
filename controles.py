@@ -5,8 +5,8 @@ import button
 # create display window
 
 pantalla=variables.pantalla
-pygame.display.set_caption('data/imagenes/icono.PNG')
-icon = pygame.image.load('data/imagenes/icono.PNG').convert_alpha()
+pygame.display.set_caption('data/imagenes/icono.png')
+icon = pygame.image.load('data/imagenes/icono.png').convert_alpha()
 pygame.display.set_icon (icon)
 
 pygame.display.set_caption('Monkey Guard')

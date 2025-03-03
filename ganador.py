@@ -6,8 +6,8 @@ from variables import (pantalla, botonMorado)
 # create display window
 
 
-pygame.display.set_caption('data/imagenes/icono.PNG')
-icon = pygame.image.load('data/imagenes/icono.PNG').convert_alpha()
+pygame.display.set_caption('data/imagenes/icono.png')
+icon = pygame.image.load('data/imagenes/icono.png').convert_alpha()
 pygame.display.set_icon (icon)
 
 pygame.display.set_caption('Monkey Guard')
@@ -32,7 +32,7 @@ while run:
         else:
             variables.aparecer=False
             pygame.mixer.music.set_volume(1.0)
-            pygame.mixer.music.load('data/audio/MENU.wav')
+            pygame.mixer.music.load('data/audio/Menu.wav')
             pygame.mixer.music.play(-1)
             exec(open('./Niveles.py', encoding="utf-8").read())
             sys.exit()

@@ -12,7 +12,7 @@ variables.juego3=True
 
 pantalla = pygame.display.set_mode((1000,600))
 pygame.display.set_caption('Monkey Guard')
-icon = pygame.image.load('data/imagenes/icono.PNG')
+icon = pygame.image.load('data/imagenes/icono.png')
 pygame.display.set_icon (icon)
 p1 = "data/imagenes/piso_pasto.png"
 p2 = "data/imagenes/pizo2.png"

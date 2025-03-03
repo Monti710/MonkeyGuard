@@ -145,9 +145,9 @@ dificil=False
 fD=False
 aparecer=True
 mapa=True
-botonMorado = "data/imagenes/botonMorado.png"
-botonRojo = "data/imagenes/botonRojo.png"
-botonDorado = "data/imagenes/botonRosado.png"
+botonMorado = "./data/imagenes/botonMorado.png"
+botonRojo = "./data/imagenes/botonRojo.png"
+botonDorado = "./data/imagenes/botonRosado.png"
 juego1=False
 juego2=False
 juego3=False
@@ -155,7 +155,7 @@ class musica:
     pygame.init()
     pygame.mixer.init(22050, -16, 2, 512)
     # Musica agregada
-    pygame.mixer.music.load('data/audio/MENU.wav')
+    pygame.mixer.music.load('./data/audio/Menu.wav')
     pygame.mixer.music.play(-1) 
 
 difuminado1=False

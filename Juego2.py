@@ -11,7 +11,7 @@ variables.juego2=True
 variables.juego3=False
 
 pygame.display.set_caption('Monkey Guard')
-icon = pygame.image.load('data/imagenes/icono.PNG')
+icon = pygame.image.load('data/imagenes/icono.png')
 pygame.display.set_icon (icon)
 p1 = "data/imagenes/metal1.png"
 p2 = "data/imagenes/metal2.png"

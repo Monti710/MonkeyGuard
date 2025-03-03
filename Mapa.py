@@ -398,7 +398,7 @@ def pausa(pantalla):
         else:
             objeto.cantidad -= objeto.cantidad
             variables.aparecer=False
-            pygame.mixer.music.load('data/audio/MENU.wav')
+            pygame.mixer.music.load('data/audio/Menu.wav')
             pygame.mixer.music.play(-1)
             exec(open('./Niveles.py', encoding="utf-8").read())
             sys.exit()
